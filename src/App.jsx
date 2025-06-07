@@ -17,7 +17,7 @@ const App = () => {
           Apprends la langue arabe, la croyance authentique et la religion selon la compréhension des pieux prédécesseurs.
         </p>
         <Button
-            to="/cours"
+            to="/categories"
             text="Voir les cours"
             icon={BookOpen}
             props={{ size: 28, strokeWidth: 3 }}

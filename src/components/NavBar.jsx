@@ -1,25 +1,19 @@
 import { useState, useEffect } from "react";
 import { Send } from 'lucide-react';
 import { Lightbulb } from 'lucide-react';
-import { navLinks } from "../constants/index";
+import navLinks from "../constants/index";
 
 const NavBar = () => {
-  // track if the user has scrolled down the page
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    // create an event listener for when the user scrolls
     const handleScroll = () => {
-      // check if the user has scrolled down at least 10px
-      // if so, set the state to true
       const isScrolled = window.scrollY > 10;
       setScrolled(isScrolled);
     };
 
-    // add the event listener to the window
     window.addEventListener("scroll", handleScroll);
 
-    // cleanup the event listener when the component is unmounted
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -43,11 +37,12 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
-          <div className="inner gap-2">
-            <span>Telegram</span> <Send strokeWidth={2.5} />
-          </div>
-        </a>
+      <a href="https://t.me/lesbasesdelislam" target="_blank" className="contact-btn group">
+        <div className="inner gap-2">
+          <span>Telegram</span>
+          <Send strokeWidth={2.5} className="transition-colors stroke-black group-hover:stroke-white" />
+        </div>
+      </a>
       </div>
     </header>
   );

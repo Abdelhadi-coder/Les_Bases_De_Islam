@@ -1,8 +1,9 @@
 const croyance = [
   {
-    id: "kitabTawhid",
+    id: "kitab-tawhid",
     title: "Kitab At-Tawhid",
     description: "Résumé du livre du Tawhid de Muhammed ibn 'abd al Wahhab",
+    cover: "/images/kitab-tawhid.jpg",
     cours: [
       {
         name: "Introduction",

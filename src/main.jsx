@@ -4,7 +4,9 @@ import './index.css'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from './App.jsx'
 import Navbar from "./components/NavBar";
-import Croyance from './sections/Croyance.jsx';
+import Categories from './sections/home/Categories.jsx';
+import Croyance from './sections/croyance/Croyance.jsx';
+import CoursDetail from './sections/croyance/CoursDetail.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,7 +14,9 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
       <Routes>
         <Route path='/' element={<App />} />
+        <Route path='/categories' element={<Categories />} />
         <Route path='/croyance' element={<Croyance />} />
+        <Route path="/croyance/:id" element={<CoursDetail />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
