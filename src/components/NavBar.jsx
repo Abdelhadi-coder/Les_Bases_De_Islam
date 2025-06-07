@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Send } from 'lucide-react';
 import { Lightbulb } from 'lucide-react';
-import navLinks from "../constants/index";
+import navLinks from "../constants/categories";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -26,9 +26,9 @@ const NavBar = () => {
 
         <nav className="desktop">
           <ul>
-            {navLinks.map(({ link, name }) => (
+            {navLinks.map(({ name, to }) => (
               <li key={name} className="group">
-                <a href={link}>
+                <a href={to}>
                   <span>{name}</span>
                   <span className="underline" />
                 </a>
