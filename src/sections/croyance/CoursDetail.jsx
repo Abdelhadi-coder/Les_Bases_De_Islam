@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { AudioCard } from "../../components/AudioCard";
 import croyanceCourses from "../../constants/croyanceCourses";
+
 const CoursDetail = () => {
   const { id } = useParams();
   const cours = croyanceCourses.find((c) => c.id === id);

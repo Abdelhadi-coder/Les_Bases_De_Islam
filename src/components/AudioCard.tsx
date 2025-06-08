@@ -1,13 +1,21 @@
-import { Play, Pause, Download } from "lucide-react";
+import { Play, Pause, Download, Image as ImageIcon } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 interface AudioCardProps {
   title: string;
-  chapitre: string;
+  chapitre?: string;
   audioSrc: string;
+  cover?: string; // image du cours (optionnel)
+  onViewImage?: (src: string) => void; // fonction pour ouvrir la modale
 }
 
-export const AudioCard = ({ title, chapitre, audioSrc }: AudioCardProps) => {
+export const AudioCard = ({
+  title,
+  chapitre,
+  audioSrc,
+  cover,
+  onViewImage,
+}: AudioCardProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState("0:00");
   const [speed, setSpeed] = useState(1);
@@ -53,11 +61,14 @@ export const AudioCard = ({ title, chapitre, audioSrc }: AudioCardProps) => {
   return (
     <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6 shadow-md flex flex-col gap-5 text-white">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-        <div className="mb-1 text-sm text-green-400">{chapitre}</div>
+        {chapitre && (
+          <div className="mb-1 text-sm text-green-400">{chapitre}</div>
+        )}
         <span className="text-sm text-gray-400">Durée : {duration}</span>
       </div>
 
       <h2 className="text-lg font-semibold">{title}</h2>
+
       <div className="flex items-center gap-4">
         <button
           onClick={togglePlay}
@@ -92,14 +103,26 @@ export const AudioCard = ({ title, chapitre, audioSrc }: AudioCardProps) => {
           ))}
         </div>
 
-        <a
-          href={audioSrc}
-          download
-          className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition"
-        >
-          <Download size={18} />
-          Télécharger
-        </a>
+        <div className="flex gap-3 items-center">
+          <a
+            href={audioSrc}
+            download
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition"
+          >
+            <Download size={18} />
+            Télécharger
+          </a>
+
+          {cover && onViewImage && (
+            <button
+              onClick={() => onViewImage(cover)}
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
+            >
+              <ImageIcon size={18} />
+              Voir l’image
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
