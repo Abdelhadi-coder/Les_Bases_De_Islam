@@ -113,15 +113,26 @@ export const AudioCard = ({
             Télécharger
           </a>
 
-          {cover && onViewImage && (
+          {cover && (
+          <div className="flex gap-2">
             <button
-              onClick={() => onViewImage(cover)}
+              onClick={() => onViewImage?.(cover)}
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
             >
               <ImageIcon size={18} />
               Voir l’image
             </button>
-          )}
+
+            <a
+              href={cover}
+              download
+              className="w-10 h-10 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 rounded-full transition"
+            >
+              <Download size={18} />
+            </a>
+          </div>
+        )}
+
         </div>
       </div>
     </div>
