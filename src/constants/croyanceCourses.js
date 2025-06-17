@@ -99,6 +99,26 @@ const croyanceCourses = [
         chapitre: "Chapitre 10",
         audio: "/cours/croyance/kitabTawhid/19.mp3",
       },
+      {
+        name: "Cours 20 : Fait partie du Chirk : Faire un voeux pour Autre qu'Allah",
+        chapitre: "Chapitre 11",
+        audio: "/cours/croyance/kitabTawhid/20.mp3",
+      },
+      {
+        name: "Cours 21 : Fait partie du Chirk : Demander la Protection à Autre qu'Allah",
+        chapitre: "Chapitre 12",
+        audio: "/cours/croyance/kitabTawhid/21.mp3",
+      },
+      {
+        name: "Cours 22 : Fait partie du Chirk : Demander le Secours à Autre qu'Allah et Invoquer Autre qu'Allah",
+        chapitre: "Chapitre 13",
+        audio: "/cours/croyance/kitabTawhid/22.mp3",
+      },
+      {
+        name: "Cours 23 : Concernant la Parole d'Allah Ta'ala : Sourate 16v20 : Et ceux qu'ils invoquent en dehors d'Allah ne créent rien, et ils sont eux-mêmes créés",
+        chapitre: "Chapitre 14",
+        audio: "/cours/croyance/kitabTawhid/23.mp3",
+      },
     ],
   },
 ]
