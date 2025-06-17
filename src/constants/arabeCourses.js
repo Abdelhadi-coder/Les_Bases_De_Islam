@@ -184,6 +184,257 @@ const arabeCourses = [
         cover: "/images/adjourroumiyah/3.jpg",
         audio: "/cours/arabe/adjourroumiyah/3(2).mp3",
       },
+      {
+        name: "Cours 8 : Adjourroumiyah - 4",
+        cover: "/images/adjourroumiyah/4.jpg",
+        audio: "/cours/arabe/adjourroumiyah/4.mp3",
+      },
+      {
+        name: "Cours 9 : Adjourroumiyah - 5",
+        cover: "/images/adjourroumiyah/5.jpg",
+        audio: "/cours/arabe/adjourroumiyah/5.mp3",
+      },
+      {
+        name: "Cours 10 : Adjourroumiyah - 6-1 - Partie 1",
+        cover: "/images/adjourroumiyah/6-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/6-1(1).mp3",
+      },
+      {
+        name: "Cours 11 : Adjourroumiyah - 6-1 - Partie 2",
+        cover: "/images/adjourroumiyah/6-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/6-1(2).mp3",
+      },
+      {
+        name: "Cours 12 : Adjourroumiyah - 6-1 - Partie 3",
+        cover: "/images/adjourroumiyah/6-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/6-1(3).mp3",
+      },
+      {
+        name: "Cours 13 : Adjourroumiyah - 6-2",
+        cover: "/images/adjourroumiyah/6-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/6-2.mp3",
+      },
+      {
+        name: "Cours 14 : Adjourroumiyah - 7-1",
+        cover: "/images/adjourroumiyah/7-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/7-1.mp3",
+      },
+      {
+        name: "Cours 15 : Adjourroumiyah - 7-2 - Partie 1",
+        cover: "/images/adjourroumiyah/7-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/7-2(1).mp3",
+      },
+      {
+        name: "Cours 16 : Adjourroumiyah - 7-2 - Partie 2",
+        cover: "/images/adjourroumiyah/7-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/7-2(2).mp3",
+      },
+      {
+        name: "Cours 17 : Adjourroumiyah - 8-1",
+        cover: "/images/adjourroumiyah/8-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/8-1.mp3",
+      },
+      {
+        name: "Cours 18 : Adjourroumiyah - 8-2",
+        cover: "/images/adjourroumiyah/8-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/8-2.mp3",
+      },
+      {
+        name: "Cours 19 : Fa'ida - 1-1",
+        cover: "/images/adjourroumiyah/faida1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida1(1).mp3",
+      },
+      {
+        name: "Cours 20 : Fa'ida - 1-2",
+        cover: "/images/adjourroumiyah/faida1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida1(2).mp3",
+      },
+      {
+        name: "Cours 21 : Fa'ida - 2",
+        cover: "/images/adjourroumiyah/faida2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida2.mp3",
+      },
+      {
+        name: "Cours 22 : Fa'ida - 3",
+        cover: "/images/adjourroumiyah/faida3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida3.mp3",
+      },
+      {
+        name: "Cours 23 : Fa'ida - 4",
+        cover: "/images/adjourroumiyah/faida4.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida4.mp3",
+      },
+      {
+        name: "Cours 24 : Fa'ida - 5",
+        cover: "/images/adjourroumiyah/faida5.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida5.mp3",
+      },
+      {
+        name: "Cours 25 : Fa'ida - 6",
+        cover: "/images/adjourroumiyah/faida6.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida6.mp3",
+      },
+      {
+        name: "Cours 26 : Fa'ida - 7",
+        cover: "/images/adjourroumiyah/faida7.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida7.mp3",
+      },
+      {
+        name: "Cours 27 : Fa'ida - 8",
+        cover: "/images/adjourroumiyah/faida8.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida8.mp3",
+      },
+      {
+        name: "Cours 28 : Fa'ida - 9",
+        cover: "/images/adjourroumiyah/faida9.jpg",
+        audio: "/cours/arabe/adjourroumiyah/faida9.mp3",
+      },
+      {
+        name: "Cours 29 : Adjourroumiyah - 9-1",
+        cover: "/images/adjourroumiyah/9-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/9-1.mp3",
+      },
+      {
+        name: "Cours 30 : Adjourroumiyah - 9-2",
+        cover: "/images/adjourroumiyah/9-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/9-2.mp3",
+      },
+      {
+        name: "Cours 31 : Adjourroumiyah - 10-1",
+        cover: "/images/adjourroumiyah/10-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/10-1.mp3",
+      },
+      {
+        name: "Cours 32 : Adjourroumiyah - 10-2",
+        cover: "/images/adjourroumiyah/10-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/10-2.mp3",
+      },
+      {
+        name: "Cours 33 : Adjourroumiyah - 10-3",
+        cover: "/images/adjourroumiyah/10-3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/10-3.mp3",
+      },
+      {
+        name: "Cours 34 : I'rab - 1",
+        cover: "/images/adjourroumiyah/irab1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/irab1.mp3",
+      },
+      {
+        name: "Cours 35 : I'rab - 2",
+        cover: "/images/adjourroumiyah/irab2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/irab2.mp3",
+      },
+      {
+        name: "Cours 36 : I'rab - 3",
+        cover: "/images/adjourroumiyah/irab3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/irab3.mp3",
+      },
+      {
+        name: "Cours 37 : Adjourroumiyah - 11-1",
+        cover: "/images/adjourroumiyah/11-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/11-1.mp3",
+      },
+      {
+        name: "Cours 38 : Adjourroumiyah - 11-2",
+        cover: "/images/adjourroumiyah/11-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/11-2.mp3",
+      },
+      {
+        name: "Cours 39 : Adjourroumiyah - 12",
+        cover: "/images/adjourroumiyah/12.jpg",
+        audio: "/cours/arabe/adjourroumiyah/12.mp3",
+      },
+      {
+        name: "Cours 40 : Adjourroumiyah - 13-1 - Partie 1",
+        cover: "/images/adjourroumiyah/13-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/13-1(1).mp3",
+      },
+      {
+        name: "Cours 41 : Adjourroumiyah - 13-1 - Partie 2",
+        cover: "/images/adjourroumiyah/13-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/13-1(2).mp3",
+      },
+      {
+        name: "Cours 42 : Adjourroumiyah - 13-1 - Partie 3",
+        cover: "/images/adjourroumiyah/13-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/13-1(3).mp3",
+      },
+      {
+        name: "Cours 43 : Adjourroumiyah - 13-2",
+        cover: "/images/adjourroumiyah/13-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/13-2.mp3",
+      },
+      {
+        name: "Cours 44 : Adjourroumiyah - 14-1",
+        cover: "/images/adjourroumiyah/14-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/14-1.mp3",
+      },
+      {
+        name: "Cours 45 : Adjourroumiyah - 14-2 - Partie 1",
+        cover: "/images/adjourroumiyah/14-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/14-2(1).mp3",
+      },
+      {
+        name: "Cours 46 : Adjourroumiyah - 14-2 - Partie 2",
+        cover: "/images/adjourroumiyah/14-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/14-2(2).mp3",
+      },
+      {
+        name: "Cours 47 : Adjourroumiyah - 14-3 - Partie 1",
+        cover: "/images/adjourroumiyah/14-3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/14-3(1).mp3",
+      },
+      {
+        name: "Cours 48 : Adjourroumiyah - 14-3 - Partie 2",
+        cover: "/images/adjourroumiyah/14-3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/14-3(2).mp3",
+      },
+      {
+        name: "Cours 49 : I'rab - 4",
+        cover: "/images/adjourroumiyah/irab4.jpg",
+        audio: "/cours/arabe/adjourroumiyah/irab4.mp3",
+      },
+      {
+        name: "Cours 50 : Adjourroumiyah - 15-1",
+        cover: "/images/adjourroumiyah/15-1.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-1.mp3",
+      },
+      {
+        name: "Cours 51 : Adjourroumiyah - 15-2",
+        cover: "/images/adjourroumiyah/15-2.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-2.mp3",
+      },
+      {
+        name: "Cours 52 : Adjourroumiyah - 15-3",
+        cover: "/images/adjourroumiyah/15-3.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-3.mp3",
+      },
+      {
+        name: "Cours 53 : Adjourroumiyah - 15-4",
+        cover: "/images/adjourroumiyah/15-4.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-4.mp3",
+      },
+      {
+        name: "Cours 54 : Adjourroumiyah - 15-5",
+        cover: "/images/adjourroumiyah/15-5.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-5.mp3",
+      },
+      {
+        name: "Cours 55 : Adjourroumiyah - 15-6",
+        cover: "/images/adjourroumiyah/15-6.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-6.mp3",
+      },
+      {
+        name: "Cours 56 : Adjourroumiyah - 15-7 - Partie 1",
+        cover: "/images/adjourroumiyah/15-7.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-7(1).mp3",
+      },
+      {
+        name: "Cours 57 : Adjourroumiyah - 15-7 - Partie 2",
+        cover: "/images/adjourroumiyah/15-7.jpg",
+        audio: "/cours/arabe/adjourroumiyah/15-7(2).mp3",
+      },
+
     ]
   },
 ]
