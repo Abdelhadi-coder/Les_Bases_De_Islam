@@ -115,7 +115,7 @@ const croyanceCourses = [
         audio: "/cours/croyance/kitabTawhid/22.mp3",
       },
       {
-        name: "Cours 23 : Concernant la Parole d'Allah Ta'ala : Sourate 16v20 : Et ceux qu'ils invoquent en dehors d'Allah ne créent rien, et ils sont eux-mêmes créés",
+        name: "Cours 23 : La Parole d'Allah Ta'ala : Vont-ils donner comme associés (à Allah) ce qui ne crée rien et qui sont eux-mêmes créés ? Et qui ne peuvent ni les secourir ni se secourir eux-mêmes ? Sourate Al-A‘rāf (7), verset 191-192",
         chapitre: "Chapitre 14",
         audio: "/cours/croyance/kitabTawhid/23.mp3",
       },
