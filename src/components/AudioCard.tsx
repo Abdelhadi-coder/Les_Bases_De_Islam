@@ -148,12 +148,12 @@ export const AudioCard = ({
 
       <h2 className="text-lg font-semibold">{title}</h2>
 
-      <div className="flex items-center gap-4">
+     <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <button
           onClick={togglePlay}
-          className="w-13 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition"
+          className="w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition self-start sm:self-auto"
         >
-          {isPlaying ? <Pause size={24} color="white" /> : <Play size={24} color="white" />}
+          {isPlaying ? <Pause size={22} color="white" /> : <Play size={22} color="white" />}
         </button>
 
         <audio

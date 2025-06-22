@@ -94,17 +94,6 @@ const NavBar = () => {
             ))}
           </ul>
         </nav>
-        {/* <button
-          onClick={toggleTheme}
-          className="p-2 rounded-full bg-gray-200 border border-gray-300 shadow-md transition-all duration-300 hover:scale-110 ml-4"
-          aria-label="Toggle Theme"
-        >
-          {theme === 'dark' ? (
-            <Sun className="text-yellow-400" size={20} />
-          ) : (
-            <Moon className="text-blue-700" size={20} />
-          )}
-        </button> */}
         <a
           href="https://t.me/lesbasesdelislam"
           target="_blank"
