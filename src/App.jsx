@@ -110,7 +110,7 @@ const Home = () => {
   }, [theme]);
 
   return (
-    <main className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 transition-colors duration-500 relative">
+    <main className="h-screen flex flex-col mt-6 items-center justify-center bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 transition-colors duration-500 relative">
       {/* Toggle Theme Button */}
       <div className="absolute top-4 right-4">
         <button
