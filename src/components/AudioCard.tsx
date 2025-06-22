@@ -58,13 +58,92 @@ export const AudioCard = ({
     setSpeed(value);
   };
 
+  // return (
+  //   <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6 shadow-md flex flex-col gap-5 text-white">
+  //     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+  //       {chapitre && (
+  //         <div className="mb-1 text-sm text-green-400">{chapitre}</div>
+  //       )}
+  //       <span className="text-sm text-gray-400">Durée : {duration}</span>
+  //     </div>
+
+  //     <h2 className="text-lg font-semibold">{title}</h2>
+
+  //     <div className="flex items-center gap-4">
+  //       <button
+  //         onClick={togglePlay}
+  //         className="w-13 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition"
+  //       >
+  //         {isPlaying ? <Pause size={24} /> : <Play size={24} />}
+  //       </button>
+
+  //       <audio
+  //         ref={audioRef}
+  //         src={audioSrc}
+  //         onEnded={() => setIsPlaying(false)}
+  //         className="w-full"
+  //         controls
+  //       />
+  //     </div>
+
+  //     <div className="flex flex-wrap gap-3 justify-between items-center">
+  //       <div className="flex gap-2">
+  //         {[1, 1.5, 2].map((val) => (
+  //           <button
+  //             key={val}
+  //             onClick={() => changeSpeed(val)}
+  //             className={`px-3 py-1 rounded-md border ${
+  //               speed === val
+  //                 ? "bg-green-600 text-white"
+  //                 : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+  //             } transition`}
+  //           >
+  //             ×{val}
+  //           </button>
+  //         ))}
+  //       </div>
+
+  //       <div className="flex gap-3 items-center">
+  //         <a
+  //           href={audioSrc}
+  //           download
+  //           className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition"
+  //         >
+  //           <Download size={18} />
+  //           Télécharger
+  //         </a>
+
+  //         {cover && (
+  //         <div className="flex gap-2">
+  //           <button
+  //             onClick={() => onViewImage?.(cover)}
+  //             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
+  //           >
+  //             <ImageIcon size={18} />
+  //             Image
+  //           </button>
+
+  //           <a
+  //             href={cover}
+  //             download
+  //             className="w-10 h-10 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 rounded-full transition"
+  //           >
+  //             <Download size={18} />
+  //           </a>
+  //         </div>
+  //       )}
+
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
   return (
-    <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6 shadow-md flex flex-col gap-5 text-white">
+    <div className="bg-white border border-gray-300 rounded-2xl p-6 shadow-md flex flex-col gap-5 text-gray-900">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         {chapitre && (
-          <div className="mb-1 text-sm text-green-400">{chapitre}</div>
+          <div className="mb-1 text-sm text-green-600">{chapitre}</div>
         )}
-        <span className="text-sm text-gray-400">Durée : {duration}</span>
+        <span className="text-sm text-gray-500">Durée : {duration}</span>
       </div>
 
       <h2 className="text-lg font-semibold">{title}</h2>
@@ -74,7 +153,7 @@ export const AudioCard = ({
           onClick={togglePlay}
           className="w-13 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition"
         >
-          {isPlaying ? <Pause size={24} /> : <Play size={24} />}
+          {isPlaying ? <Pause size={24} color="white" /> : <Play size={24} color="white" />}
         </button>
 
         <audio
@@ -95,7 +174,7 @@ export const AudioCard = ({
               className={`px-3 py-1 rounded-md border ${
                 speed === val
                   ? "bg-green-600 text-white"
-                  : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               } transition`}
             >
               ×{val}
@@ -114,27 +193,26 @@ export const AudioCard = ({
           </a>
 
           {cover && (
-          <div className="flex gap-2">
-            <button
-              onClick={() => onViewImage?.(cover)}
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
-            >
-              <ImageIcon size={18} />
-              Image
-            </button>
+            <div className="flex gap-2">
+              <button
+                onClick={() => onViewImage?.(cover)}
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
+              >
+                <ImageIcon size={18} />
+                Image
+              </button>
 
-            <a
-              href={cover}
-              download
-              className="w-10 h-10 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 rounded-full transition"
-            >
-              <Download size={18} />
-            </a>
-          </div>
-        )}
-
+              <a
+                href={cover}
+                download
+                className="w-10 h-10 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 rounded-full transition"
+              >
+                <Download size={18} color="white"/>
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
   );
-};
+}

@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { CircleX } from "lucide-react";
 
 const ImageModal = ({ imageSrc, onClose }) => {
-  // Permet de fermer avec la touche Échap
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") {
@@ -12,8 +11,6 @@ const ImageModal = ({ imageSrc, onClose }) => {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
-
-  // Permet de fermer si on clique à l’extérieur de l’image
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
       onClose();
@@ -22,19 +19,16 @@ const ImageModal = ({ imageSrc, onClose }) => {
 
   return (
     <div
-      className="fixed pt-20 inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
+      className="fixed pt-20 inset-0 bg-gray-300 bg-opacity-90 flex items-center justify-center z-50"
       onClick={handleBackdropClick}
     >
-      {/* Bouton pour fermer */}
       <button
-        className="absolute top-4 right-4 text-white text-3xl font-bold"
+        className="absolute top-6 mt-20 right-6 z-50 bg-black/60 hover:bg-red-600 text-white p-2 rounded-full transition"
         onClick={onClose}
         aria-label="Fermer l'image"
       >
-        <CircleX color="white" />
+        <CircleX size={28} />
       </button>
-
-      {/* L’image agrandie */}
       <img
         src={imageSrc}
         alt="Image du cours"
