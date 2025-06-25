@@ -9,27 +9,6 @@ const CoursDetail = () => {
   if (!cours) {
     return <div className="text-black pt-24 text-center">Cours non trouvé</div>;
   }
-
-  // return (
-  //   <main className="min-h-screen bg-black text-white pt-24 px-4 pb-12">
-  //     <div className="max-w-4xl mx-auto">
-  //       <h1 className="text-4xl font-bold text-green-400 mb-2">{cours.title}</h1>
-  //       <p className="text-gray-300 mb-8">{cours.description}</p>
-
-  //       <div className="space-y-6">
-  //         {cours.audios.map((audio, index) => (
-  //           <AudioCard
-  //             key={index}
-  //             title={audio.name}
-  //             chapitre={audio.chapitre}
-  //             audioSrc={audio.audio}
-  //             duration={audio.duration}
-  //           />
-  //         ))}
-  //       </div>
-  //     </div>
-  //   </main>
-  // );
   return (
     <main className="min-h-screen bg-gradient-to-br from-white via-gray-100 to-gray-200 text-gray-900 pt-24 px-4 pb-12">
       <div className="max-w-4xl mx-auto">
@@ -54,3 +33,25 @@ const CoursDetail = () => {
 };
 
 export default CoursDetail;
+
+
+// return (
+//   <main className="min-h-screen bg-black text-white pt-24 px-4 pb-12">
+//     <div className="max-w-4xl mx-auto">
+//       <h1 className="text-4xl font-bold text-green-400 mb-2">{cours.title}</h1>
+//       <p className="text-gray-300 mb-8">{cours.description}</p>
+
+//       <div className="space-y-6">
+//         {cours.audios.map((audio, index) => (
+//           <AudioCard
+//             key={index}
+//             title={audio.name}
+//             chapitre={audio.chapitre}
+//             audioSrc={audio.audio}
+//             duration={audio.duration}
+//           />
+//         ))}
+//       </div>
+//     </div>
+//   </main>
+// );

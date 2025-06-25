@@ -12,11 +12,6 @@ const categories = [
     icon: Languages,
   },
   {
-    name: "Tajwid",
-    to: "/tajwid",
-    icon: Sparkle,
-  },
-  {
     name: "Coran",
     to: "/coran",
     icon: Book,

@@ -111,7 +111,6 @@ const Home = () => {
 
   return (
     <main className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 transition-colors duration-500 relative">
-      {/* Toggle Theme Button */}
       <div className="absolute top-4 right-4">
         <button
           onClick={toggleTheme}
@@ -129,7 +128,7 @@ const Home = () => {
       {/* Text Content */}
       <div className="text-center space-y-6 mt-16 transition-all duration-500 max-w-xl px-4">
         <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
-          السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللهِ وَ بَرَكاتُهُ
+          السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
         </h4>
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
           Cours de sciences religieuse

@@ -8,7 +8,9 @@ interface AudioCardProps {
   cover?: string;
   onViewImage?: (src: string) => void;
 }
+
 let currentAudio: HTMLAudioElement | null = null;
+const pauseAllCallbacks = new Set<() => void>();
 
 export const AudioCard = ({
   title,
@@ -38,17 +40,28 @@ export const AudioCard = ({
     };
   }, [audioSrc]);
 
+  useEffect(() => {
+    // On ajoute la fonction de pause à la liste globale
+    const pauseThis = () => {
+      const audio = audioRef.current;
+      if (!audio) return;
+      audio.pause();
+      setIsPlaying(false);
+    };
+
+    pauseAllCallbacks.add(pauseThis);
+    return () => {
+      pauseAllCallbacks.delete(pauseThis);
+    };
+  }, []);
+
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    if (currentAudio && currentAudio !== audio) {
-      currentAudio.pause();
-      currentAudio.currentTime = 0;
-    }
-
-    // Toggle current one
     if (audio.paused) {
+      // Pause all other audios
+      pauseAllCallbacks.forEach((cb) => cb());
       audio.play();
       currentAudio = audio;
       setIsPlaying(true);
@@ -92,7 +105,7 @@ export const AudioCard = ({
       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <button
           onClick={togglePlay}
-          className="w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition self-start sm:self-auto"
+          className="w-12 h-11 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition self-start sm:self-auto"
         >
           {isPlaying ? <Pause size={22} color="white" /> : <Play size={22} color="white" />}
         </button>
@@ -100,7 +113,6 @@ export const AudioCard = ({
         <audio
           ref={audioRef}
           src={audioSrc}
-          onEnded={() => setIsPlaying(false)}
           className="w-full"
           controls
         />
@@ -157,6 +169,7 @@ export const AudioCard = ({
     </div>
   );
 };
+
 
 
 

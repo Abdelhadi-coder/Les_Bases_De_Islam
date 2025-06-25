@@ -152,7 +152,7 @@ const arabeCourses = [
     audios: [
       {
         name: "Cours 1 : Adjourroumiyah - Introduction",
-        audio: "/cours/arabe/adjourroumiyah/0.mp3",
+        audio: "https://bases-islam.b-cdn.net/0.mp3",
       },
       {
         name: "Cours 2 : Adjourroumiyah - Contenue du livre - 1",
