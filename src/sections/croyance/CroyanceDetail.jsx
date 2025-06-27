@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { AudioCard } from "../../components/AudioCard";
 import croyanceCourses from "../../constants/croyanceCourses";
 
-const CoursDetail = () => {
+const CroyanceDetail = () => {
   const { id } = useParams();
   const cours = croyanceCourses.find((c) => c.id === id);
 
@@ -32,7 +32,7 @@ const CoursDetail = () => {
 
 };
 
-export default CoursDetail;
+export default CroyanceDetail;
 
 
 // return (

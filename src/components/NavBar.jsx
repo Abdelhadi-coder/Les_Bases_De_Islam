@@ -78,12 +78,19 @@ const NavBar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"} bg-white shadow-md border-b border-gray-200`}>
       <div className="inner">
-        <a href="/" className="flex justify-center items-center gap-2 logo text-gray-800 hover:text-black transition-colors duration-300">
-          <Lightbulb size={32} strokeWidth={3} />
-          Les Bases de l'Islam
+        <a href="/" className="flex justify-center items-center gap-2 transition-colors duration-300">
+          {/* <Lightbulb size={32} strokeWidth={3} /> */}
+            <img
+              src="/images/whiteIcone.png"
+              alt="Astuce"
+              className="w-25 h-25 object-contain p-0 ml-30 absolute"
+              // style={{ filter: 'drop-shadow(0 0 2px gray)' }}
+            />
+
+          {/* Les Bases de l'Islam */}
         </a>
         <nav className="desktop">
-          <ul>
+          <ul className="flex ml-44">
             {navLinks.map(({ name, to }) => (
               <li key={name} className="group">
                 <a href={to} className="text-gray-700 hover:text-black transition-colors duration-300 relative">

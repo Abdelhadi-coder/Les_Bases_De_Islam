@@ -1,8 +1,8 @@
 const arabeCourses = [
   {
     id: "lecture-arabe",
-    title: "Apprendre les lettres Arabe",
-    description: "Apprendre les lettres de la langue Arabe",
+    title: "Les lettres de l’alphabet arabe",
+    description: "Apprends à reconnaître, prononcer et écrire les 28 lettres de l’alphabet arabe, base essentielle pour lire le Coran.",
     audios: [
       {
         name: "Cours 1 : Lecture Arabe - Introduction",
@@ -145,10 +145,10 @@ const arabeCourses = [
       },
     ]
   },
-    {
+  {
     id: "adjourroumiyah",
     title: "Résumé d'Al Adjourroumiyah",
-    description: "Apprendre les changements qui vont se produire à la fin des mots",
+    description: "Étudie les bases de la grammaire arabe : les types de mots, les déclinaisons et les règles de la phrase nominale et verbale.",
     audios: [
       {
         name: "Cours 1 : Adjourroumiyah - Introduction",

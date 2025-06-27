@@ -1,0 +1,33 @@
+import qoranCourses from '../../constants/qoranCourses';
+import { Link } from 'react-router-dom';
+
+const Qoran = () => {
+  return (
+    <main className="min-h-screen pt-24 px-4 bg-gradient-to-br from-gray-100 via-white to-gray-200">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-gray-900 text-4xl font-bold mb-8 text-center">Cours de Coran</h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {qoranCourses.map((serie) => (
+            <Link key={serie.id} to={`/qoran/${serie.id}`}>
+              <div className="bg-white p-6 rounded-xl shadow-md hover:bg-gray-100 transition">
+                {serie.cover && (
+                  <img
+                    src={serie.cover}
+                    alt="cover"
+                    className="rounded mb-2 max-h-48 w-full object-cover"
+                  />
+                )}
+                <h2 className="text-gray-900 text-2xl font-semibold mb-2">{serie.title}</h2>
+                <p className="text-gray-600 text-sm">{serie.description}</p>
+                <p className="text-green-600 mt-3">{serie.audios.length} audios</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+
+}
+export default Qoran;

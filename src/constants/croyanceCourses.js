@@ -1,8 +1,8 @@
 const croyanceCourses = [
   {
     id: "kitab-tawhid",
-    title: "Kitab At-Tawhid",
-    description: "Explication du livre de l'unicité d'Allah par votre frère Aliy le Congolais",
+    title: "Kitab at-Tawhid – Le livre de l’unicité",
+    description: "Explication de l'ouvrage de l’Imam Muhammad ibn Abd al-Wahhab, centré sur la croyance authentique en l’unicité d’Allah (at-Tawhid).",
     audios: [
       {
         name: "Cours 1 : Introduction",
