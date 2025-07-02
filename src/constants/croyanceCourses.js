@@ -121,6 +121,141 @@ const croyanceCourses = [
       },
     ],
   },
+  {
+    id: "questions-tombe",
+    title: "Les 3 Questions de la tombe",
+    description: "Étudie les questions posées dans la tombe et prépare-toi à y répondre selon la croyance authentique.",
+    audios: [
+      {
+        name: "Cours 1 : Les 3 Questions de la tombe",
+        audio: "/cours/croyance/tombe/1.mp3",
+      },
+      {
+        name: "Cours 2 : Les 3 Questions de la tombe",
+        audio: "/cours/croyance/tombe/2.mp3",
+      },
+      {
+        name: "Cours 3 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/3.jpg",
+        audio: "/cours/croyance/tombe/3.mp3",
+      },
+      {
+        name: "Cours 4 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/4-5-6.jpg",
+        audio: "/cours/croyance/tombe/4.mp3",
+      },
+      {
+        name: "Cours 5 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/4-5-6.jpg",
+        audio: "/cours/croyance/tombe/5.mp3",
+      },
+      {
+        name: "Cours 6 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/4-5-6.jpg",
+        audio: "/cours/croyance/tombe/6.mp3",
+      },
+      {
+        name: "Cours 7 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/7.jpg",
+        audio: "/cours/croyance/tombe/7.mp3",
+      },
+      {
+        name: "Cours 8 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/8-9.jpg",
+        audio: "/cours/croyance/tombe/8.mp3",
+      },
+      {
+        name: "Cours 9 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/8-9.jpg",
+        audio: "/cours/croyance/tombe/9.mp3",
+      },
+      {
+        name: "Cours 10 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/10-11.jpg",
+        audio: "/cours/croyance/tombe/10.mp3",
+      },
+      {
+        name: "Cours 11 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/10-11.jpg",
+        audio: "/cours/croyance/tombe/11.mp3",
+      },
+      {
+        name: "Cours 12 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/12-13-14-15.jpg",
+        audio: "/cours/croyance/tombe/12.mp3",
+      },
+      {
+        name: "Cours 13 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/12-13-14-15.jpg",
+        audio: "/cours/croyance/tombe/13.mp3",
+      },
+      {
+        name: "Cours 14 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/12-13-14-15.jpg",
+        audio: "/cours/croyance/tombe/14.mp3",
+      },
+      {
+        name: "Cours 15 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/12-13-14-15.jpg",
+        audio: "/cours/croyance/tombe/15.mp3",
+      },
+      {
+        name: "Cours 16 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/16-17-18.jpg",
+        audio: "/cours/croyance/tombe/16.mp3",
+      },
+      {
+        name: "Cours 17 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/16-17-18.jpg",
+        audio: "/cours/croyance/tombe/17.mp3",
+      },
+      {
+        name: "Cours 18 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/16-17-18.jpg",
+        audio: "/cours/croyance/tombe/18.mp3",
+      },
+      {
+        name: "Cours 19 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/19.jpg",
+        audio: "/cours/croyance/tombe/19.mp3",
+      },
+      {
+        name: "Cours 20 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/20.jpg",
+        audio: "/cours/croyance/tombe/20.mp3",
+      },
+      {
+        name: "Cours 21 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/21.jpg",
+        audio: "/cours/croyance/tombe/21.mp3",
+      },
+      {
+        name: "Cours 22 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/22-23-24-25.jpg",
+        audio: "/cours/croyance/tombe/22.mp3",
+      },
+      {
+        name: "Cours 23 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/22-23-24-25.jpg",
+        audio: "/cours/croyance/tombe/23.mp3",
+      },
+      {
+        name: "Cours 24 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/22-23-24-25.jpg",
+        audio: "/cours/croyance/tombe/24.mp3",
+      },
+      {
+        name: "Cours 25 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/22-23-24-25.jpg",
+        audio: "/cours/croyance/tombe/25.mp3",
+      },
+      {
+        name: "Cours 26 : Les 3 Questions de la tombe",
+        cover: "/images/croyance/tombe/26.jpg",
+        audio: "/cours/croyance/tombe/26.mp3",
+      },
+    ],
+  }
 ]
 
 export default croyanceCourses;

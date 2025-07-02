@@ -1,28 +1,37 @@
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 import { AudioCard } from "../../components/AudioCard";
+import ImageModal from "../../components/ImageModal";
 import croyanceCourses from "../../constants/croyanceCourses";
 
 const CroyanceDetail = () => {
   const { id } = useParams();
   const cours = croyanceCourses.find((c) => c.id === id);
+  const firstCover = cours?.audios.find((audio) => audio.cover)?.cover;
+  const [modalOpen, setModalOpen] = useState(null);
 
   if (!cours) {
-    return <div className="text-black pt-24 text-center">Cours non trouvé</div>;
+    return <div className="text-white pt-24 text-center">Cours non trouvé</div>;
   }
   return (
-    <main className="min-h-screen bg-gradient-to-br from-white via-gray-100 to-gray-200 text-gray-900 pt-24 px-4 pb-12">
+    <main className="min-h-screen bg-white text-gray-900 pt-24 px-4 pb-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-green-600 mb-2">{cours.title}</h1>
         <p className="text-gray-700 mb-8">{cours.description}</p>
+
+        {modalOpen && (
+          <ImageModal imageSrc={modalOpen} onClose={() => setModalOpen(null)} />
+        )}
 
         <div className="space-y-6">
           {cours.audios.map((audio, index) => (
             <AudioCard
               key={index}
               title={audio.name}
-              chapitre={audio.chapitre}
               audioSrc={audio.audio}
-              duration={audio.duration}
+              chapitre={audio.chapitre}
+              cover={audio.cover}
+              onViewImage={audio.cover ? (src) => setModalOpen(src) : undefined}
             />
           ))}
         </div>
