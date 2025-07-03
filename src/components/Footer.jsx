@@ -1,31 +1,31 @@
 import { Copy } from 'lucide-react';
-import { useState } from 'react';
 
-function Footer() {
-  const [copied, setCopied] = useState(false);
-  const email = "tonemail@example.com";
+function Footer({ onCopy }) {
+  const emails = [
+    { label: "Homme", email: "lesbasesdelislam00@gmail.com" },
+    { label: "Femme", email: "lesbasesdelislamfemme@gmail.com" },
+  ];
 
-  const handleCopy = () => {
+  const handleCopy = (email) => {
     navigator.clipboard.writeText(email);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (onCopy) onCopy();
   };
 
   return (
-    <footer className="absolute bottom-4 w-full px-6 text-center text-sm text-gray-600 dark:text-gray-300">
-      <div className="inline-flex items-center justify-center gap-2 p-3 rounded-xl bg-white/60 dark:bg-black/30 backdrop-blur-md shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
-        <span>
-          Une remarque, un bug ou une idée d'amélioration ? Contactez-moi sur ce mail :
-        </span>
-        <div className="inline-flex items-center gap-1 cursor-pointer group relative" onClick={handleCopy}>
-          <span className="text-green-600 dark:text-green-400 font-medium underline">{email}</span>
-          <Copy size={16} className="text-gray-600 dark:text-gray-300 ml-2 group-hover:text-green-500 transition-colors" />
-          {copied && (
-            <span className="absolute -top-6 left-1/2 -translate-x-1/2 bg-green-600 text-white text-xs rounded px-2 py-0.5 shadow-md">
-              Copié !
-            </span>
-          )}
-        </div>
+    <footer className="absolute bottom-4 w-full px-4 text-center text-sm text-gray-600 dark:text-gray-300">
+      <div className="inline-flex flex-col items-center gap-2 p-4 rounded-xl bg-white/60 dark:bg-black/30 backdrop-blur-md shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] max-w-lg mx-auto">
+        <p className="mb-2 font-medium">Une remarque, un bug ou une idée d'amélioration ?</p>
+        {emails.map(({ label, email }, i) => (
+          <div
+            key={i}
+            className="flex items-center gap-2 cursor-pointer group"
+            onClick={() => handleCopy(email)}
+          >
+            <span className="text-gray-800 dark:text-white font-semibold">{label} :</span>
+            <span className="text-green-600 dark:text-green-400 font-medium underline">{email}</span>
+            <Copy size={16} className="text-gray-600 dark:text-gray-300 group-hover:text-green-500 transition-colors" />
+          </div>
+        ))}
       </div>
     </footer>
   );
