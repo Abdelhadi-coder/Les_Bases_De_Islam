@@ -116,14 +116,17 @@ const Home = () => {
       <CopiedToast visible={showToast} />
       <main className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 pt-28 transition-colors duration-500 relative">
         <div className="text-center space-y-6 sm:mt-22 transition-all duration-500 max-w-xl px-4">
-          <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
-            السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
+          <h4 className="text-5xl text-green-600 font-medium font-amiri tracking-normal">
+            السلام عليكم ورحمة الله وبركاته
           </h4>
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
-            Cours de sciences religieuse
+          <h1 className="text-4xl md:text-4xl font-bold text-gray-900">
+            Cours de science religieuse
           </h1>
           <p className="text-gray-700 text-lg max-w-xl mx-auto">
             Apprends la langue arabe, la croyance authentique et la religion selon la compréhension des pieux prédécesseurs.
+          </p>
+          <p className="text-lg text-gray-700 font-bold italic font-amiri tracking-normal">
+            dispensé par le frère Aliy le congolais
           </p>
 
           <Link
