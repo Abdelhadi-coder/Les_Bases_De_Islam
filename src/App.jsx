@@ -115,20 +115,6 @@ const Home = () => {
     <>
       <CopiedToast visible={showToast} />
       <main className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 pt-28 transition-colors duration-500 relative">
-        <div className="absolute top-4 right-4">
-          <button
-            onClick={toggleTheme}
-            className="p-2 rounded-full bg-gray-200 shadow-md border border-gray-300 transition-all duration-300 hover:scale-110"
-            aria-label="Toggle Theme"
-          >
-            {theme === 'dark' ? (
-              <Sun className="text-yellow-400" size={24} />
-            ) : (
-              <Moon className="text-blue-700" size={24} />
-            )}
-          </button>
-        </div>
-
         <div className="text-center space-y-6 sm:mt-22 transition-all duration-500 max-w-xl px-4">
           <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
             السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
