@@ -89,6 +89,7 @@
 import { useState, useEffect } from 'react';
 import { BookOpen, Sun, Moon } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Footer from './components/Footer';
 
 const Home = () => {
   const [theme, setTheme] = useState(() => {
@@ -125,7 +126,6 @@ const Home = () => {
         </button>
       </div>
 
-      {/* Text Content */}
       <div className="text-center space-y-6 mt-16 transition-all duration-500 max-w-xl px-4">
         <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
           السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
@@ -137,7 +137,6 @@ const Home = () => {
           Apprends la langue arabe, la croyance authentique et la religion selon la compréhension des pieux prédécesseurs.
         </p>
 
-        {/* Bouton "Voir les cours" */}
         <Link
           to="/categories"
           className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 group"
@@ -165,6 +164,7 @@ const Home = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </main>
   );
 };
