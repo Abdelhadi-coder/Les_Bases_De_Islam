@@ -13,7 +13,7 @@ function Footer({ onCopy }) {
 
   return (
     <footer className="w-full px-4 text-center text-sm text-gray-600 dark:text-gray-300 py-6">
-      <div className="inline-flex flex-col items-center gap-2 p-4 rounded-xl bg-white/60 dark:bg-black/30 backdrop-blur-md shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] max-w-lg mx-auto">
+      <div className="w-full sm:w-[80%] md:w-[60%] flex flex-col items-center gap-2 p-4 rounded-xl bg-white/60 dark:bg-black/30 backdrop-blur-md shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] mx-auto">
         <p className="mb-2 font-medium">Une remarque, un bug ou une idée d'amélioration ?</p>
         {emails.map(({ label, email }, i) => (
           <div

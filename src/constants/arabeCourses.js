@@ -602,16 +602,665 @@ const arabeCourses = [
     description: "Découvre la science du sarf : les transformations des mots en arabe, comprendre les formes verbales et nominales de l'arabe",
     audios: [
       {
-        name: "Cours 1 : Sarf - Niv.1",
-        chapitre: "Chapitre 2",
-        cover: "https://bases-islam.b-cdn.net/images/arabe/sarf/1.jpg",
-        audio: "https://bases-islam.b-cdn.net/courses/arabe/sarf/1.mp3"
+        "name": "Cours 1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/1.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/1.mp3"
       },
       {
-        name: "Cours 2 : Lecture Arabe -  أ ب ت ث",
-        cover: "https://bases-islam.b-cdn.net/images/arabe/lecture-arabe/1.jpeg",
-        audio: "https://bases-islam.b-cdn.net/courses/arabe/lecture-arabe/2.mp3"
+        "name": "Cours 2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/2.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/2.mp3"
       },
+      {
+        "name": "Cours 3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/3.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/3.mp3"
+      },
+      {
+        "name": "Cours 4-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/4.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/4.mp3"
+      },
+      {
+        "name": "Cours 4-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/5.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/5.mp3"
+      },
+      {
+        "name": "Cours 4-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/6.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/6.mp3"
+      },
+      {
+        "name": "Cours 5-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/7.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/7.mp3"
+      },
+      {
+        "name": "Cours 5-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/8.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/8.mp3"
+      },
+      {
+        "name": "Cours 5-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/9.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/9.mp3"
+      },
+      {
+        "name": "Cours 6-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/10.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/10.mp3"
+      },
+      {
+        "name": "Cours 6-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/11.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/11.mp3"
+      },
+      {
+        "name": "Cours 7-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/12.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/12.mp3"
+      },
+      {
+        "name": "Cours 7-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/13.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/13.mp3"
+      },
+      {
+        "name": "Cours 8-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/14.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/14.mp3"
+      },
+      {
+        "name": "Cours 8-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/15.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/15.mp3"
+      },
+      {
+        "name": "Cours 9-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/16.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/16.mp3"
+      },
+      {
+        "name": "Cours 9-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/17.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/17.mp3"
+      },
+      {
+        "name": "Cours 10-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/18.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/18.mp3"
+      },
+      {
+        "name": "Cours 10-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/19.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/19.mp3"
+      },
+      {
+        "name": "Cours 11 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/20.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/20.mp3"
+      },
+      {
+        "name": "Cours 12 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/21.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/21.mp3"
+      },
+      {
+        "name": "Cours : Sarf - Niv.1 - Les 6 Formes",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/22.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/22.mp3"
+      },
+      {
+        "name": "Cours 13-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/23.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/23.mp3"
+      },
+      {
+        "name": "Cours 13-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/24.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/24.mp3"
+      },
+      {
+        "name": "Cours 13-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/25.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/25.mp3"
+      },
+      {
+        "name": "Cours 13-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/26.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/26.mp3"
+      },
+      {
+        "name": "Cours 13-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/27.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/27.mp3"
+      },
+      {
+        "name": "Cours 14-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/28.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/28.mp3"
+      },
+      {
+        "name": "Cours 14-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/29.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/29.mp3"
+      },
+      {
+        "name": "Cours 14-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/30.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/30.mp3"
+      },
+      {
+        "name": "Cours 14-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/31.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/31.mp3"
+      },
+      {
+        "name": "Cours 14-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/32.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/32.mp3"
+      },
+      {
+        "name": "Cours 15-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/33.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/33.mp3"
+      },
+      {
+        "name": "Cours 15-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/34.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/34.mp3"
+      },
+      {
+        "name": "Cours 15-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/35.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/35.mp3"
+      },
+      {
+        "name": "Cours 15-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/36.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/36.mp3"
+      },
+      {
+        "name": "Cours 15-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/37.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/37.mp3"
+      },
+      {
+        "name": "Cours 16-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/38.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/38.mp3"
+      },
+      {
+        "name": "Cours 16-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/39.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/39.mp3"
+      },
+      {
+        "name": "Cours 16-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/40.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/40.mp3"
+      },
+      {
+        "name": "Cours 16-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/41.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/41.mp3"
+      },
+      {
+        "name": "Cours 16-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/42.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/42.mp3"
+      },
+      {
+        "name": "Cours 17-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/43.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/43.mp3"
+      },
+      {
+        "name": "Cours 17-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/44.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/44.mp3"
+      },
+      {
+        "name": "Cours 17-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/45.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/45.mp3"
+      },
+      {
+        "name": "Cours 17-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/46.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/46.mp3"
+      },
+      {
+        "name": "Cours 17-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/47.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/47.mp3"
+      },
+      {
+        "name": "Cours 18-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/48.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/48.mp3"
+      },
+      {
+        "name": "Cours 18-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/49.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/49.mp3"
+      },
+      {
+        "name": "Cours 18-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/50.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/50.mp3"
+      },
+      {
+        "name": "Cours 18-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/51.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/51.mp3"
+      },
+      {
+        "name": "Cours 18-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/52.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/52.mp3"
+      },
+      {
+        "name": "Cours 19-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/53.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/53.mp3"
+      },
+      {
+        "name": "Cours 19-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/54.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/54.mp3"
+      },
+      {
+        "name": "Cours 19-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/55.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/55.mp3"
+      },
+      {
+        "name": "Cours 19-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/56.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/56.mp3"
+      },
+      {
+        "name": "Cours 19-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/57.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/57.mp3"
+      },
+      {
+        "name": "Cours 20 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/58.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/58.mp3"
+      },
+      {
+        "name": "Cours 21-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/59.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/59.mp3"
+      },
+      {
+        "name": "Cours 21-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/60.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/60.mp3"
+      },
+      {
+        "name": "Cours 21-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/61.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/61.mp3"
+      },
+      {
+        "name": "Cours 21-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/62.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/62.mp3"
+      },
+      {
+        "name": "Cours 21-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/63.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/63.mp3"
+      },
+      {
+        "name": "Cours 21-6 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/64.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/64.mp3"
+      },
+      {
+        "name": "Cours 21-7 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/65.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/65.mp3"
+      },
+      {
+        "name": "Cours 22-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/66.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/66.mp3"
+      },
+      {
+        "name": "Cours 22-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/67.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/67.mp3"
+      },
+      {
+        "name": "Cours 22-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/68.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/68.mp3"
+      },
+      {
+        "name": "Cours 22-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/69.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/69.mp3"
+      },
+      {
+        "name": "Cours 22-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/70.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/70.mp3"
+      },
+      {
+        "name": "Cours 22-6 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/71.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/71.mp3"
+      },
+      {
+        "name": "Cours 22-7 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/72.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/72.mp3"
+      },
+      {
+        "name": "Cours 23-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/73.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/73.mp3"
+      },
+      {
+        "name": "Cours 23-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/74.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/74.mp3"
+      },
+      {
+        "name": "Cours 23-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/75.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/75.mp3"
+      },
+      {
+        "name": "Cours 23-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/76.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/76.mp3"
+      },
+      {
+        "name": "Cours 23-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/77.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/77.mp3"
+      },
+      {
+        "name": "Cours 23-6 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/78.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/78.mp3"
+      },
+      {
+        "name": "Cours 23-7 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/79.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/79.mp3"
+      },
+      {
+        "name": "Cours 24-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/80.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/80.mp3"
+      },
+      {
+        "name": "Cours 24-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/81.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/81.mp3"
+      },
+      {
+        "name": "Cours 24-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/82.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/82.mp3"
+      },
+      {
+        "name": "Cours 24-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/83.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/83.mp3"
+      },
+      {
+        "name": "Cours 24-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/84.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/84.mp3"
+      },
+      {
+        "name": "Cours 24-6 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/85.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/85.mp3"
+      },
+      {
+        "name": "Cours 24-7 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/86.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/86.mp3"
+      },
+      {
+        "name": "Cours 25-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/87.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/87.mp3"
+      },
+      {
+        "name": "Cours 25-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/88.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/88.mp3"
+      },
+      {
+        "name": "Cours 25-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/89.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/89.mp3"
+      },
+      {
+        "name": "Cours 25-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/90.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/90.mp3"
+      },
+      {
+        "name": "Cours 25-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/91.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/91.mp3"
+      },
+      {
+        "name": "Cours 26-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/92.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/92.mp3"
+      },
+      {
+        "name": "Cours 26-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/93.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/93.mp3"
+      },
+      {
+        "name": "Cours 26-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/94.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/94.mp3"
+      },
+      {
+        "name": "Cours 26-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/95.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/95.mp3"
+      },
+      {
+        "name": "Cours 26-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/96.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/96.mp3"
+      },
+      {
+        "name": "Cours 27-1 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/97.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/97.mp3"
+      },
+      {
+        "name": "Cours 27-2 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/98.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/98.mp3"
+      },
+      {
+        "name": "Cours 27-3 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/99.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/99.mp3"
+      },
+      {
+        "name": "Cours 27-4 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/100.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/100.mp3"
+      },
+      {
+        "name": "Cours 27-5 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/101.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/101.mp3"
+      },
+      {
+        "name": "Cours 28 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/102.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/102.mp3"
+      },
+      {
+        "name": "Cours 29 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/103.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/103.mp3"
+      },
+      {
+        "name": "Cours 30 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/104.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/104.mp3"
+      },
+      {
+        "name": "Cours 31 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/105.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/105.mp3"
+      },
+      {
+        "name": "Cours 32 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/106.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/106.mp3"
+      },
+      {
+        "name": "Cours 33 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/107.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/107.mp3"
+      },
+      {
+        "name": "Cours 34 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/108.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/108.mp3"
+      },
+      {
+        "name": "Cours 35 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/109.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/109.mp3"
+      },
+      {
+        "name": "Cours 36 : Sarf - Niv.1",
+        "chapitre": "Livre : الصّرف للمبتدئين",
+        "cover": "https://bases-islam.b-cdn.net/images/arabe/sarf/110.jpg",
+        "audio": "https://bases-islam.b-cdn.net/courses/arabe/sarf/110.mp3"
+      }
     ]
   },
 ]

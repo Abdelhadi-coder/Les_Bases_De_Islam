@@ -168,6 +168,7 @@ const Home = () => {
             </a>
           </div>
         </div>
+        <hr className="border-t border-gray-300/30 mt-7 dark:border-gray-700/50 w-full max-w-lg mx-auto mb-3" />
         <Footer onCopy={triggerToast} />
       </main>
     </>
