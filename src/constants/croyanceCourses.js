@@ -119,6 +119,31 @@ const croyanceCourses = [
         chapitre: "Chapitre 14",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/23.mp3",
       },
+      {
+        name: "Cours 24 : La Parole d'Allah Ta'ala : Quand la frayeur se sera éloignée de leurs cœurs",
+        chapitre: "Chapitre 15",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/24.mp3",
+      },
+      {
+        name: "Cours 25 : L'Intercession",
+        chapitre: "Chapitre 16",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/25.mp3",
+      },
+      {
+        name: "Cours 26 : Concernant la parole d'Allah Ta'ala : Tu ne guides pas celui que tu aimes",
+        chapitre: "Chapitre 17",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/26.mp3",
+      },
+      {
+        name: "Cours 27 : L'Exagération sur les hommes pieux est une Grande cause de Mécréance",
+        chapitre: "Chapitre 18",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/27.mp3",
+      },
+      {
+        name: "Cours 28 : La Gravité d'adorer Allah près de la tombe d'un homme pieux que-dire si il est adoré en dehors d'Allah ...?!",
+        chapitre: "Chapitre 19",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/27.mp3",
+      },
     ],
   },
   {

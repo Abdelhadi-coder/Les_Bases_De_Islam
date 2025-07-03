@@ -2,8 +2,8 @@ import { Copy } from 'lucide-react';
 
 function Footer({ onCopy }) {
   const emails = [
-    { label: "🚹", email: "lesbasesdelislam00@gmail.com" },
-    { label: "🚺", email: "lesbasesdelislamfemme@gmail.com" },
+    { label: "🔵", email: "lesbasesdelislam00@gmail.com" },
+    { label: "🟣", email: "lesbasesdelislamfemme@gmail.com" },
   ];
 
   const handleCopy = (email) => {

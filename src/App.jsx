@@ -123,11 +123,11 @@ const Home = () => {
             Cours de science religieuse
           </h1>
           <p className="text-gray-700 text-lg max-w-xl mx-auto">
-            Apprends la langue arabe, la croyance authentique et la religion selon la compréhension des pieux prédécesseurs.
+            Apprends la langue arabe, la croyance authentique, et la religion selon la compréhension des pieux prédécesseurs,<br /> <span className='text-lg text-gray-700 font-bold italic font-amiri tracking-normal'>dispensées par le frère Aliy le Congolais.</span>
           </p>
-          <p className="text-lg text-gray-700 font-bold italic font-amiri tracking-normal">
+          {/* <p className="text-lg text-gray-700 font-bold italic font-amiri tracking-normal">
             dispensé par le frère Aliy le congolais
-          </p>
+          </p> */}
 
           <Link
             to="/categories"
