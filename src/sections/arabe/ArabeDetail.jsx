@@ -57,6 +57,7 @@ const ArabeDetail = () => {
               key={index}
               title={audio.name}
               audioSrc={audio.audio}
+              chapitre={audio.chapitre}
               cover={audio.cover}
               onViewImage={audio.cover ? (src) => setModalOpen(src) : undefined}
             />

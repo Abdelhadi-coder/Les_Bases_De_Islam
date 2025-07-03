@@ -114,8 +114,7 @@ const Home = () => {
   return (
     <>
       <CopiedToast visible={showToast} />
-
-      <main className="min-h-screen flex flex-col items-center bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 pt-28 pb-40 transition-colors duration-500 relative">
+      <main className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-gray-200 via-white to-gray-400 px-4 pt-28 transition-colors duration-500 relative">
         <div className="absolute top-4 right-4">
           <button
             onClick={toggleTheme}
@@ -130,7 +129,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="text-center space-y-6 transition-all duration-500 max-w-xl px-4">
+        <div className="text-center space-y-6 sm:mt-22 transition-all duration-500 max-w-xl px-4">
           <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
             السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
           </h4>
@@ -169,7 +168,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-
         <Footer onCopy={triggerToast} />
       </main>
     </>

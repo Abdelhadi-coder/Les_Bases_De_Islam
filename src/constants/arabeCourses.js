@@ -602,8 +602,10 @@ const arabeCourses = [
     description: "Découvre la science du sarf : les transformations des mots en arabe, comprendre les formes verbales et nominales de l'arabe",
     audios: [
       {
-        name: "Cours 1 : Lecture Arabe - Introduction",
-        audio: "https://bases-islam.b-cdn.net/courses/arabe/lecture-arabe/1.mp3"
+        name: "Cours 1 : Sarf - Niv.1",
+        chapitre: "Chapitre 2",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/sarf/1.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/sarf/1.mp3"
       },
       {
         name: "Cours 2 : Lecture Arabe -  أ ب ت ث",
