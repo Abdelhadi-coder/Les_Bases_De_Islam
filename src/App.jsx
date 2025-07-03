@@ -130,7 +130,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="text-center space-y-6 mt-26 transition-all duration-500 max-w-xl px-4">
+        <div className="text-center space-y-6 transition-all duration-500 max-w-xl px-4">
           <h4 className="text-3xl text-green-600 font-medium font-arabic tracking-normal">
             السَّلَامُ عَلَيْكُمْ وَ رَحْمَةُ اللَّهِ وَ بَرَكَاتُهُ
           </h4>

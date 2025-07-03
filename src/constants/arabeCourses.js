@@ -596,6 +596,22 @@ const arabeCourses = [
       },
     ]
   },
+  {
+    id: "sarf",
+    title: "Le sarf (Variation arabe)",
+    description: "Découvre la science du sarf : les transformations des mots en arabe, comprendre les formes verbales et nominales de l'arabe",
+    audios: [
+      {
+        name: "Cours 1 : Lecture Arabe - Introduction",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/lecture-arabe/1.mp3"
+      },
+      {
+        name: "Cours 2 : Lecture Arabe -  أ ب ت ث",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/lecture-arabe/1.jpeg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/lecture-arabe/2.mp3"
+      },
+    ]
+  },
 ]
 
 export default arabeCourses;
