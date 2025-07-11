@@ -12,6 +12,7 @@ import ArabeDetail from './sections/arabe/ArabeDetail.jsx';
 import { ThemeProvider } from './components/ThemeContext'; 
 import Qoran from './sections/qoran/Qoran.jsx';
 import QoranDetail from './sections/qoran/QoranDetail.jsx';
+import Telegram from './sections/telegram/Telegram.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path='/' element={<App />} />
           <Route path='/categories' element={<Categories />} />
+          <Route path='/telegram' element={<Telegram />} />
           <Route path='/croyance' element={<Croyance />} />
           <Route path="/croyance/:id" element={<CroyanceDetail />} />
           <Route path='/arabe' element={<Arabe />} />

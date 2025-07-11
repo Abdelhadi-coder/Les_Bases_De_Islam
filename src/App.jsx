@@ -74,7 +74,7 @@
 //         to="/categories"
 //         className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 group"
 //       >
-//         <BookOpen size={24} strokeWidth={2.5} className="group-hover:rotate-6 transition-transform duration-300" />
+//         <BookOpen size={24} strokeWidth={2.5} className="transition-transform duration-300" />
 //         Voir les cours
 //       </Link>
 //     </div>
@@ -133,7 +133,7 @@ const Home = () => {
             to="/categories"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300 group"
           >
-            <BookOpen size={24} strokeWidth={2.5} className="group-hover:rotate-6 transition-transform duration-300" />
+            <BookOpen size={24} strokeWidth={2.5} className="transition-transform duration-300" />
             Voir les cours
           </Link>
 
@@ -142,7 +142,7 @@ const Home = () => {
               href="https://m.youtube.com/@LesbasesdelislamAliy"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 rounded-full backdrop-blur-lg border border-red-400/30 bg-gradient-to-tr from-gray-100 via-gray-200 to-gray-300 shadow-md hover:shadow-lg hover:shadow-red-400/50 hover:scale-110 hover:rotate-2 active:scale-95 active:rotate-0 transition-all duration-300 ease-out cursor-pointer hover:border-red-500 hover:bg-gradient-to-tr hover:from-white hover:via-gray-300 hover:to-gray-400 group relative overflow-hidden"
+              className="p-4 rounded-full backdrop-blur-lg border border-red-400/30 bg-gradient-to-tr from-gray-100 via-gray-200 to-gray-300 shadow-md hover:shadow-lg hover:shadow-red-400/50 hover:scale-110 active:scale-95 active:rotate-0 transition-all duration-300 ease-out cursor-pointer hover:border-red-500 hover:bg-gradient-to-tr hover:from-white hover:via-gray-300 hover:to-gray-400 group relative overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-red-400/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out"></div>
               <div className="relative z-10">

@@ -102,8 +102,7 @@ const NavBar = () => {
           </ul>
         </nav>
         <a
-          href="https://t.me/lesbasesdelislam"
-          target="_blank"
+          href="/telegram"
           className="contact-btn group ml-4"
           rel="noreferrer"
         >
