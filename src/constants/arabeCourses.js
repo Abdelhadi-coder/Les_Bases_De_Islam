@@ -3,6 +3,7 @@ const arabeCourses = [
     id: "lecture-arabe",
     title: "Les lettres de l’alphabet arabe",
     description: "Apprends à reconnaître, prononcer et écrire les 28 lettres de l’alphabet arabe, base essentielle pour lire le Coran.",
+    support: "https://bases-islam.b-cdn.net/courses/arabe/lecture-arabe/lettres.pdf",
     audios: [
       {
         name: "Cours 1 : Lecture Arabe - Introduction",
