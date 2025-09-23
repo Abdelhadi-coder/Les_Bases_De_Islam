@@ -142,7 +142,97 @@ const croyanceCourses = [
       {
         name: "Cours 28 : La Gravité d'adorer Allah près de la tombe d'un homme pieux que-dire si il est adoré en dehors d'Allah ...?!",
         chapitre: "Chapitre 19",
-        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/27.mp3",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/28.mp3",
+      },
+      {
+        name: "Cours 29 : L'exagération sur les tombes des hommes pieux amène à les adorer en dehors d'Allah",
+        chapitre: "Chapitre 20",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/29.mp3",
+      },
+      {
+        name: "Cours 30 : La vigilance du Prophète à ce que sa oummah connaisse le Tawhid et son blocage à toutes voies menant au Chirk",
+        chapitre: "Chapitre 21",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/30.mp3",
+      },
+      {
+        name: "Cours 31 : Ce qui a été rapporté concernant certains de cette Oummah qui adoreront autre qu'Allah",
+        chapitre: "Chapitre 22",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/31.mp3",
+      },
+      {
+        name: "Cours 32 : Ce qui a été rapporté concernant la sorcellerie",
+        chapitre: "Chapitre 23",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/32.mp3",
+      },
+      {
+        name: "Cours 33 : Différentes catégories de sorcellerie",
+        chapitre: "Chapitre 24",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/33.mp3",
+      },
+      {
+        name: "Cours 34 : Ce qui a été rapporté concernant les voyants",
+        chapitre: "Chapitre 25",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/34.mp3",
+      },
+      {
+        name: "Cours 35 : Ce qui a été rapporté concernant النشرة",
+        chapitre: "Chapitre 26",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/35.mp3",
+      },
+      {
+        name: "Cours 36 : Ce qui a été rapporté concernant التطير",
+        chapitre: "Chapitre 27",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/36.mp3",
+      },
+      {
+        name: "Cours 37 : Ce qui a été rapporté concernant التنجيم",
+        chapitre: "Chapitre 28",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/37.mp3",
+      },
+      {
+        name: "Cours 38 : Ce qui a été rapporté concernant la demande de pluie aux étoiles",
+        chapitre: "Chapitre 29",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/38.mp3",
+      },
+      {
+        name: "Cours 39 : Concernant la parole d'Allah Ta'ala 'Il est des gens qui prennent, en dehors d’Allah, des égaux qu’ils aiment comme on aime Allah': - Partie 1",
+        chapitre: "Chapitre 30",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/39.mp3",
+      },
+      {
+        name: "Cours 40 : Concernant la parole d'Allah Ta'ala 'Il est des gens qui prennent, en dehors d’Allah, des égaux qu’ils aiment comme on aime Allah': - Partie 2",
+        chapitre: "Chapitre 30",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/40.mp3",
+      },
+      {
+        name: "Cours 41 : Concernant la parole d'Allah Ta'ala 'Ce n’est que le Diable qui fait peur à ses alliés. N’ayez donc pas peur d’eux, mais craignez-Moi, si vous êtes croyants.': ",
+        chapitre: "Chapitre 31",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/41.mp3",
+      },
+      {
+        name: "Cours 42 : Concernant la parole d'Allah Ta'ala 'Que les croyants s’en remettent donc à Allah.':  - Partie 1",
+        chapitre: "Chapitre 32",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/42.mp3",
+      },
+      {
+        name: "Cours 43 : Concernant la parole d'Allah Ta'ala 'Que les croyants s’en remettent donc à Allah.':  - Partie 2",
+        chapitre: "Chapitre 32",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/43.mp3",
+      },
+      {
+        name: "Cours 44 : Concernant la parole d'Allah Ta'ala : 'Se sentent-ils à l’abri du stratagème d’Allah ? Seuls les gens perdants se sentent à l’abri du stratagème d’Allah.'",
+        chapitre: "Chapitre 33",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/44.mp3",
+      },
+      {
+        name: "Cours 45 : Fais partie de la foi en Allah : de patienter sur le destin - Partie 1",
+        chapitre: "Chapitre 34",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/45.mp3",
+      },
+      {
+        name: "Cours 46 : Fais partie de la foi en Allah : de patienter sur le destin - Partie 2",
+        chapitre: "Chapitre 34",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/46.mp3",
       },
     ],
   },
