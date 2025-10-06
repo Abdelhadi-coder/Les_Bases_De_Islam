@@ -239,6 +239,11 @@ const croyanceCourses = [
         chapitre: "Chapitre 34",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/47.mp3",
       },
+      {
+        name: "Cours 47 : Ce qui  a été rapporté concernant l'ostentation",
+        chapitre: "Chapitre 35",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/48.mp3",
+      },
     ],
   },
   {
