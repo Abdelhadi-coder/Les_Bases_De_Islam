@@ -244,6 +244,11 @@ const croyanceCourses = [
         chapitre: "Chapitre 35",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/48.mp3",
       },
+      {
+        name: "Cours 48 : Fait partie du Chirk de rechercher de la dounya par une oeuvre pieuse",
+        chapitre: "Chapitre 36",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/49.mp3",
+      },
     ],
   },
   {
