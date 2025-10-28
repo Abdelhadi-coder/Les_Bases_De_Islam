@@ -249,6 +249,16 @@ const croyanceCourses = [
         chapitre: "Chapitre 36",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/49.mp3",
       },
+      {
+        name: "Cours 49 : Obéir aux savants et gouverneurs dans ce qu'Allah a interdit est une forme d'adoration envers eux - Partie 1",
+        chapitre: "Chapitre 37",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/46.mp3",
+      },
+      {
+        name: "Cours 50 : Obéir aux savants et gouverneurs dans ce qu'Allah a interdit est une forme d'adoration envers eux - Partie 2",
+        chapitre: "Chapitre 37",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/47.mp3",
+      },
     ],
   },
   {
