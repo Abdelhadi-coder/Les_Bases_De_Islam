@@ -147,6 +147,144 @@ const arabeCourses = [
     ]
   },
   {
+    id: "medine1",
+    title: "Approche du Tome 1 de Médine",
+    description: "Apprends à la langue arabe avec les tomes de Médine",
+    support: "https://bases-islam.b-cdn.net/courses/arabe/medine1/medine1.pdf",
+    audios: [
+      {
+        name: "Cours 1 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/1.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/1.m4a"
+      },
+      {
+        name: "Cours 2 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/2.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/2.mp3"
+      },
+      {
+        name: "Cours 3 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/3.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/3.mp3"
+      },
+      {
+        name: "Cours 4 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/4.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/4.mp3"
+      },
+      {
+        name: "Cours 5 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/5.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/5.mp3"
+      },
+      {
+        name: "Cours 6 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/6.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/6.mp3"
+      },
+      {
+        name: "Cours 7 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/7.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/7.mp3"
+      },
+      {
+        name: "Cours 8 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/8.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/8.mp3"
+      },
+      {
+        name: "Cours 9 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/9.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/9.mp3"
+      },
+      {
+        name: "Cours 10 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/10.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/10.mp3"
+      },
+      {
+        name: "Cours 11 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/11.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/11.mp3"
+      },
+      {
+        name: "Cours 12 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/12.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/12.mp3"
+      },
+      {
+        name: "Cours 13 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/13.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/13.mp3"
+      },
+      {
+        name: "Cours 14 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/14.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/14.mp3"
+      },
+      {
+        name: "Cours 15 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/15.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/15.mp3"
+      },
+      {
+        name: "Cours 16 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/16.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/16.mp3"
+      },
+      {
+        name: "Cours 17 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/17.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/17.mp3"
+      },
+      {
+        name: "Cours 18 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/18.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/18.mp3"
+      },
+      {
+        name: "Cours 19 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/19.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/19.mp3"
+      },
+      {
+        name: "Cours 20 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/20.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/20.mp3"
+      },
+      {
+        name: "Cours 21 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/21.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/21.mp3"
+      },
+      {
+        name: "Cours 22 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/22.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/22.mp3"
+      },
+      {
+        name: "Cours 23 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/23.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/23.mp3"
+      },
+      {
+        name: "Cours 24 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/24.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/24.mp3"
+      },
+      {
+        name: "Cours 25 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/25.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/25.mp3"
+      },
+      {
+        name: "Cours 26 : Tome 1 de Médine",
+        cover: "https://bases-islam.b-cdn.net/images/arabe/medine1/26.jpg",
+        audio: "https://bases-islam.b-cdn.net/courses/arabe/medine1/26.mp3"
+      }
+    ]
+  },
+  {
     id: "adjourroumiyah",
     title: "Résumé d'Al Adjourroumiyah",
     description: "Étudie les bases de la grammaire arabe : les types de mots, les déclinaisons et les règles de la phrase nominale et verbale.",
