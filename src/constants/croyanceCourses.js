@@ -260,9 +260,14 @@ const croyanceCourses = [
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/51.mp3",
       },
       {
-        name: "Cours 51 : Concernant la parole d'Allah : ...أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا",
+        name: "Cours 51 : Concernant la parole d'Allah : ...أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا - Partie 1" ,
         chapitre: "Chapitre 38",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/52.mp3",
+      },
+      {
+        name: "Cours 52 : Concernant la parole d'Allah : ...أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا - Partie 2",
+        chapitre: "Chapitre 38",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/53.mp3",
       },
     ],
   },
