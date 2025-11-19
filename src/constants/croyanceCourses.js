@@ -269,6 +269,11 @@ const croyanceCourses = [
         chapitre: "Chapitre 38",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/53.mp3",
       },
+      {
+        name: "Cours 53 : Rejetter les Noms ou Attributs d'Allah totalement ou en partie",
+        chapitre: "Chapitre 39",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/54.mp3",
+      },
     ],
   },
   {
