@@ -279,6 +279,16 @@ const croyanceCourses = [
         chapitre: "Chapitre 39",
         audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/55.mp3",
       },
+      {
+        name: "Cours 55 : Rejetter l'attribution des bienfaits à Allah",
+        chapitre: "Chapitre 40",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/56.mp3",
+      },
+      {
+        name: "Concernant la parole d'Allah :  فَلَا تَجْعَلُوا لِلَّهِ أَنْدَادًا وَأَنْتُمْ تَعْلَمُونَ",
+        chapitre: "Chapitre 40",
+        audio: "https://bases-islam.b-cdn.net/courses/croyance/kitabTawhid/57.mp3",
+      },
     ],
   },
   {
